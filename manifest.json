@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "IG Blocker (Demo)",
+  "version": "1.0",
+  "description": "Block Instagram temporary",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ig-blocker@my-study-tools.com"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
